@@ -12,7 +12,6 @@
 <script src="${pageContext.request.contextPath }/js/bootstrap.min.js" type="text/javascript"></script>
 <!-- 引入自定义css文件 style.css -->
 <link rel="stylesheet" href="${pageContext.request.contextPath }/css/style.css" type="text/css" />
-
 <style>
 body {
 	margin-top: 20px;
@@ -27,8 +26,6 @@ body {
 </head>
 
 <body>
-
-
 	<!-- 引入header.jsp -->
 	<jsp:include page="/header.jsp"></jsp:include>
 
@@ -37,9 +34,9 @@ body {
 			<div style="margin: 0 auto; margin-top: 10px; width: 950px;">
 				<strong>我的订单</strong>
 				<table class="table table-bordered">
-				
+
 					<c:forEach items="${orderList }" var="order">
-					
+
 						<tbody>
 							<tr class="success">
 								<th colspan="5">订单编号:${order.oid }&nbsp;&nbsp;${order.state==0?"未付款":"已付款" }</th>
@@ -51,9 +48,9 @@ body {
 								<th>数量</th>
 								<th>小计</th>
 							</tr>
-							
+
 							<c:forEach items="${order.orderItems }" var="orderItem">
-							
+
 								<tr class="active">
 									<td width="60" width="40%">
 										<img src="${pageContext.request.contextPath }/${orderItem.product.pimage}" width="70" height="60">
@@ -63,19 +60,17 @@ body {
 									<td width="10%">${orderItem.count}</td>
 									<td width="15%"><span class="subtotal">￥${orderItem.subtotal}</span></td>
 								</tr>
-							
+
 							</c:forEach>
-							
-							
-							
+
 						</tbody>
-					
+
 					</c:forEach>
-					
+
 				</table>
 			</div>
 		</div>
-		
+
 	</div>
 
 	<!-- 引入footer.jsp -->

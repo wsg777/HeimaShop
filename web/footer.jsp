@@ -20,6 +20,6 @@
 		</ul>
 	</div>
 	<div style="text-align: center;margin-top: 5px;margin-bottom:20px;">
-		Copyright &copy; 2005-2016 传智商城 版权所有
+		Copyright &copy; 2018年暑期社会实践 王少刚 干心怡 李文天 何苏 刘鸣  版权所有
 	</div>
 </div>

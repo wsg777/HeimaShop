@@ -23,7 +23,10 @@
 			</c:if>
 			
 			<li><a href="cart.jsp">购物车</a></li>
-			<li><a href="${pageContext.request.contextPath }/product?method=myOrders">我的订单</a></li>
+            <c:if test="${!empty user }">
+                <li><a href="${pageContext.request.contextPath }/product?method=myOrders">我的订单</a></li>
+            </c:if>
+
 		</ol>
 	</div>
 </div>

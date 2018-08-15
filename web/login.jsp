@@ -66,16 +66,16 @@ font {
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+							<label class="col-sm-2 control-label">密码</label>
 							<div class="col-sm-6"> 
-								<input type="password" class="form-control" id="inputPassword3" name="password"
+								<input type="password" class="form-control" name="password"
 									placeholder="请输入密码">
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="inputPassword3" class="col-sm-2 control-label">验证码</label>
+							<label class="col-sm-2 control-label">验证码</label>
 							<div class="col-sm-3">
-								<input type="text" class="form-control" id="inputPassword3"
+								<input type="text" class="form-control"
 									placeholder="请输入验证码">
 							</div>
 							<div class="col-sm-3">
@@ -96,7 +96,8 @@ font {
 							<div class="col-sm-offset-2 col-sm-10">
 								<input type="submit" width="100" value="登录" name="submit"
 									style="background: url('./images/login.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0); height: 35px; width: 100px; color: white;">
-							</div>
+                                <span>&nbsp;&nbsp;<a href="register.jsp">注册</a> </span>
+                            </div>
 						</div>
 					</form>
 				</div>
