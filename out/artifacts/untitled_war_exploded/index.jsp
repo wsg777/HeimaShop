@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 		<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
 	</head>
 
 	<body>
@@ -63,7 +64,7 @@
 			<!-- 热门商品 -->
 			<div class="container-fluid">
 				<div class="col-md-12">
-					<h2>热门商品&nbsp;&nbsp;<img src="img/title2.jpg"/></h2>
+					<h2>热门商品&nbsp;&nbsp;<img src="img/title2.jpg" /></h2>
 				</div>
 				<div class="col-md-2" style="border:1px solid #E7E7E7;border-right:0;padding:0;">
 					<img src="products/hao/big01.jpg" width="205" height="404" style="display: inline-block;"/>
