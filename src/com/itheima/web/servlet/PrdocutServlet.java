@@ -20,15 +20,15 @@ public class PrdocutServlet extends BaseServlet {
 
     //获得我的订单
     public void myOrders(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         HttpSession session = request.getSession();
-
         User user = (User) session.getAttribute("user");
 
         ProductService service = new ProductService();
+
         //查询该用户的所有的订单信息(单表查询orders表)
         //集合中的每一个Order对象的数据是不完整的 缺少List<OrderItem> orderItems数据
         List<Order> orderList = service.findAllOrders(user.getUid());
+
         //循环所有的订单 为每个订单填充订单项集合信息
         if (orderList != null) {
             for (Order order : orderList) {
@@ -60,12 +60,10 @@ public class PrdocutServlet extends BaseServlet {
 
             }
         }
-
-
         //orderList封装完整了
         request.setAttribute("orderList", orderList);
 
-        request.getRequestDispatcher("/order_list.jsp").forward(request, response);
+        request.getRequestDispatcher("/privilege/order_list.jsp").forward(request, response);
 
 
     }

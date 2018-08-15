@@ -153,7 +153,7 @@ public class ProductService {
 
 	//获得指定用户的订单集合
 	public List<Order> findAllOrders(String uid) {
-		ProductDao dao = new ProductDao();
+        ProductDao dao = new ProductDao();
 		List<Order> orderList = null;
 		try {
 			orderList = dao.findAllOrders(uid);

@@ -60,7 +60,7 @@
 					</a>
 				</div>
 			</div>
-			
+
 			<!-- 热门商品 -->
 			<div class="container-fluid">
 				<div class="col-md-12">
@@ -71,34 +71,28 @@
 				</div>
 				<div class="col-md-10">
 					<div class="col-md-6" style="text-align:center;height:200px;padding:0px;">
-						<a href="product_info.htm">
-							<img src="products/hao/middle01.jpg" width="516px" height="200px" style="display: inline-block;">
-						</a>
+                        <img src="products/hao/middle01.jpg" width="516px" height="200px" style="display: inline-block;">
 					</div>
-					
-					<c:forEach items="${hotProductList }" var="hotPro">
 
+					<c:forEach items="${hotProductList }" var="hotPro">
 						<div class="col-md-2" style="text-align:center;height:200px;padding:10px 0px;">
-							<a href="product_info.htm">
+							<a href="${pageContext.request.contextPath}/product?method=productInfo&pid=${hotPro.pid }">
 								<img src="${pageContext.request.contextPath }/${hotPro.pimage }" width="130" height="130" style="display: inline-block;">
 							</a>
-							<p><a href="product_info.html" style='color:#666'>${hotPro.pname }</a></p>
+							<p><a href="${pageContext.request.contextPath}/product?method=productInfo&pid=${hotPro.pid }" style='color:#666'>${hotPro.pname }</a></p>
 							<p><font color="#E4393C" style="font-size:16px">&yen;${hotPro.shop_price }</font></p>
 						</div>
 
 					</c:forEach>
-				
-					
-	
-					
+
 				</div>
 			</div>
-			
+
 			<!-- 广告条 -->
             <div class="container-fluid">
 				<img src="products/hao/ad.jpg" width="100%"/>
 			</div>
-			
+
 			<!-- 最新商品 -->
 			<div class="container-fluid">
 				<div class="col-md-12">
@@ -109,29 +103,27 @@
 				</div>
 				<div class="col-md-10">
 					<div class="col-md-6" style="text-align:center;height:200px;padding:0px;">
-						<a href="product_info.htm">
-							<img src="products/hao/middle01.jpg" width="516px" height="200px" style="display: inline-block;">
-						</a>
+						<img src="products/hao/middle01.jpg" width="516px" height="200px" style="display: inline-block;">
 					</div>
-				
+
 					<c:forEach items="${newProductList }" var="newPro">
 
 						<div class="col-md-2" style="text-align:center;height:200px;padding:10px 0px;">
-							<a href="product_info.htm">
+							<a href="${pageContext.request.contextPath}/product?method=productInfo&pid=${newPro.pid }">
 								<img src="${pageContext.request.contextPath }/${newPro.pimage }" width="130" height="130" style="display: inline-block;">
 							</a>
-							<p><a href="product_info.html" style='color:#666'>${newPro.pname }</a></p>
+							<p><a href="${pageContext.request.contextPath}/product?method=productInfo&pid=${newPro.pid }" style='color:#666'>${newPro.pname }</a></p>
 							<p><font color="#E4393C" style="font-size:16px">&yen;${newPro.shop_price }</font></p>
 						</div>
 
 					</c:forEach>
-					
+
 				</div>
-			</div>			
-			
+			</div>
+
 			<!-- 引入footer.jsp -->
 			<jsp:include page="/footer.jsp"></jsp:include>
-			
+
 		</div>
 	</body>
 

@@ -8,11 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0be88bda-6b5a-4237-926a-1b285e7df7f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/untitled_war_exploded/WEB-INF/classes/com/itheima/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/untitled_war_exploded/WEB-INF/classes/com/itheima/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/untitled_war_exploded/WEB-INF/classes/com/itheima/web/servlet/PrdocutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/untitled_war_exploded/WEB-INF/classes/com/itheima/web/servlet/PrdocutServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/untitled_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/untitled_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/com/itheima/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/itheima/service/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled/com/itheima/web/servlet/PrdocutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/com/itheima/web/servlet/PrdocutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itheima/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itheima/web/servlet/PrdocutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itheima/web/servlet/PrdocutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,9 +40,9 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="126" />
+          <entry key="java" value="130" />
           <entry key="jpg" value="2" />
-          <entry key="jsp" value="5" />
+          <entry key="jsp" value="10" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
           <entry key="xml" value="5" />
@@ -50,8 +52,8 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="126" />
-          <entry key="JSP" value="5" />
+          <entry key="JAVA" value="130" />
+          <entry key="JSP" value="10" />
           <entry key="Markdown" value="1" />
           <entry key="Properties" value="3" />
           <entry key="XML" value="5" />
@@ -59,15 +61,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="255" />
-          <entry key="jsp" value="182" />
+          <entry key="java" value="407" />
+          <entry key="jsp" value="204" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="255" />
-          <entry key="JSP" value="182" />
+          <entry key="JAVA" value="407" />
+          <entry key="JSP" value="204" />
           <entry key="XML" value="19" />
         </counts>
       </usages-collector>
@@ -75,29 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-277">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/web/servlet/PrdocutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
+            <state relative-caret-position="420">
+              <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="211">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
             </state>
           </provider>
         </entry>
@@ -117,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="64" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="176">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
             </state>
           </provider>
         </entry>
@@ -130,6 +114,7 @@
       <find>product</find>
       <find>hotProductList</find>
       <find>首页</find>
+      <find>myOrders</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,11 +130,11 @@
         <option value="$PROJECT_DIR$/src/com/itheima/web/servlet/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/web/servlet/BaseServlet.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/domain/Category.java" />
+        <option value="$PROJECT_DIR$/web/header.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/itheima/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/com/itheima/web/servlet/PrdocutServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/header.jsp" />
       </list>
     </option>
   </component>
@@ -379,12 +364,12 @@
       <workItem from="1534248880456" duration="4319000" />
       <workItem from="1534300367832" duration="3028000" />
       <workItem from="1534303481682" duration="7563000" />
-      <workItem from="1534316681086" duration="5205000" />
+      <workItem from="1534316681086" duration="9008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20152000" />
+    <option name="totallyTimeSpent" value="23955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,6 +382,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9254457" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -706,41 +692,61 @@
     <entry file="file://$PROJECT_DIR$/web/products/hao/big01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/web/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itheima/web/servlet/PrdocutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="66" column="56" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="633">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        <state relative-caret-position="211">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itheima/web/servlet/PrdocutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
