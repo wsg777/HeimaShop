@@ -1,16 +1,15 @@
 package com.itheima.service;
 
-import java.sql.SQLException;
-import java.util.List;
-import java.util.Map;
-
 import com.itheima.dao.ProductDao;
 import com.itheima.domain.Category;
 import com.itheima.domain.Order;
-import com.itheima.domain.OrderItem;
 import com.itheima.domain.PageBean;
 import com.itheima.domain.Product;
 import com.itheima.utils.DataSourceUtils;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
 public class ProductService {
 
@@ -45,6 +44,9 @@ public class ProductService {
 		List<Category> categoryList = null;
 		try {
 			categoryList = dao.findAllCategory();
+
+
+
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

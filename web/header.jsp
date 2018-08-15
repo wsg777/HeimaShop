@@ -40,7 +40,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">首页</a>
+				<a class="navbar-brand" href="index.jsp">首页</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -59,7 +59,6 @@
 				</form>
 			</div>
 		</div>
-		
 		<script type="text/javascript">
 			//header.jsp加载完毕后 去服务器端获得所有的category数据
 			$(function(){
@@ -72,7 +71,6 @@
 						for(var i=0;i<data.length;i++){
 							content+="<li><a href='${pageContext.request.contextPath}/product?method=productList&cid="+data[i].cid+"'>"+data[i].cname+"</a></li>";
 						}
-						
 						//将拼接好的li放置到ul中
 						$("#categoryUl").html(content);
 					},

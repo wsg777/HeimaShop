@@ -1,21 +1,20 @@
 package com.itheima.dao;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.List;
-import java.util.Map;
-
+import com.itheima.domain.Category;
+import com.itheima.domain.Order;
+import com.itheima.domain.OrderItem;
+import com.itheima.domain.Product;
+import com.itheima.utils.DataSourceUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.MapListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
-import com.itheima.domain.Category;
-import com.itheima.domain.Order;
-import com.itheima.domain.OrderItem;
-import com.itheima.domain.Product;
-import com.itheima.utils.DataSourceUtils;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
 public class ProductDao {
 
@@ -35,6 +34,7 @@ public class ProductDao {
 	public List<Category> findAllCategory() throws SQLException {
 		QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
 		String sql = "select * from category";
+
 		return runner.query(sql, new BeanListHandler<Category>(Category.class));
 	}
 

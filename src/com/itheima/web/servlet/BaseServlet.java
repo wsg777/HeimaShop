@@ -24,8 +24,6 @@ public class BaseServlet extends HttpServlet {
 			Method method = clazz.getMethod(methodName, HttpServletRequest.class,HttpServletResponse.class);
             //4、执行相应功能方法
 			method.invoke(this, req,resp);
-            System.out.println("正常");
-
         } catch (Exception e) {
 			e.printStackTrace();
 		}
