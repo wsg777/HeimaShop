@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 import com.itheima.domain.*;
 import com.itheima.service.ProductService;
 import com.itheima.utils.CommonsUtils;
-import com.itheima.utils.PaymentUtil;
 import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletException;
@@ -16,7 +15,6 @@ import java.io.IOException;
 import java.util.*;
 
 public class PrdocutServlet extends BaseServlet {
-
 
     //获得我的订单
     public void myOrders(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -54,13 +52,11 @@ public class PrdocutServlet extends BaseServlet {
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-
-
                 }
 
             }
         }
-        //orderList封装完整了
+        //orderList封装完成
         request.setAttribute("orderList", orderList);
 
         request.getRequestDispatcher("/privilege/order_list.jsp").forward(request, response);
@@ -68,7 +64,7 @@ public class PrdocutServlet extends BaseServlet {
 
     }
 
-    //确认订单---更新收获人信息+在线支付
+    //确认订单
     public void confirmOrder(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         //1、更新收货人信息
@@ -82,66 +78,9 @@ public class PrdocutServlet extends BaseServlet {
 
         ProductService service = new ProductService();
         service.updateOrderAdrr(order);
-
-        //2、在线支付
-		/*if(pd_FrpId.equals("ABC-NET-B2C")){
-			//介入农行的接口
-		}else if(pd_FrpId.equals("ICBC-NET-B2C")){
-			//接入工行的接口
-		}*/
-        //.......
-
-        //只接入一个接口，这个接口已经集成所有的银行接口了  ，这个接口是第三方支付平台提供的
-        //接入的是易宝支付
-        // 获得 支付必须基本数据
-        String orderid = request.getParameter("oid");
-        //String money = order.getTotal()+"";//支付金额
-        String money = "0.01";//支付金额
-        // 银行
-        String pd_FrpId = request.getParameter("pd_FrpId");
-
-        // 发给支付公司需要哪些数据
-        String p0_Cmd = "Buy";
-        String p1_MerId = ResourceBundle.getBundle("merchantInfo").getString("p1_MerId");
-        String p2_Order = orderid;
-        String p3_Amt = money;
-        String p4_Cur = "CNY";
-        String p5_Pid = "";
-        String p6_Pcat = "";
-        String p7_Pdesc = "";
-        // 支付成功回调地址 ---- 第三方支付公司会访问、用户访问
-        // 第三方支付可以访问网址
-        String p8_Url = ResourceBundle.getBundle("merchantInfo").getString("callback");
-        String p9_SAF = "";
-        String pa_MP = "";
-        String pr_NeedResponse = "1";
-        // 加密hmac 需要密钥
-        String keyValue = ResourceBundle.getBundle("merchantInfo").getString(
-                "keyValue");
-        String hmac = PaymentUtil.buildHmac(p0_Cmd, p1_MerId, p2_Order, p3_Amt,
-                p4_Cur, p5_Pid, p6_Pcat, p7_Pdesc, p8_Url, p9_SAF, pa_MP,
-                pd_FrpId, pr_NeedResponse, keyValue);
-
-
-        String url = "https://www.yeepay.com/app-merchant-proxy/node?pd_FrpId=" + pd_FrpId +
-                "&p0_Cmd=" + p0_Cmd +
-                "&p1_MerId=" + p1_MerId +
-                "&p2_Order=" + p2_Order +
-                "&p3_Amt=" + p3_Amt +
-                "&p4_Cur=" + p4_Cur +
-                "&p5_Pid=" + p5_Pid +
-                "&p6_Pcat=" + p6_Pcat +
-                "&p7_Pdesc=" + p7_Pdesc +
-                "&p8_Url=" + p8_Url +
-                "&p9_SAF=" + p9_SAF +
-                "&pa_MP=" + pa_MP +
-                "&pr_NeedResponse=" + pr_NeedResponse +
-                "&hmac=" + hmac;
-
-        //重定向到第三方支付平台
-        response.sendRedirect(url);
-
-
+        response.setContentType("text/html;charset=UTF-8");
+        response.setStatus(302);
+        response.setHeader("Location", "/pay.jsp");
     }
 
     //提交订单
@@ -213,6 +152,8 @@ public class PrdocutServlet extends BaseServlet {
 
 
         session.setAttribute("order", order);
+        //清空购物车
+        session.removeAttribute("cart");
 
         //页面跳转
         response.sendRedirect(request.getContextPath() + "/order_info.jsp");

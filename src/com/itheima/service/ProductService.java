@@ -44,9 +44,6 @@ public class ProductService {
 		List<Category> categoryList = null;
 		try {
 			categoryList = dao.findAllCategory();
-
-
-
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

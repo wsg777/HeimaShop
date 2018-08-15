@@ -59,7 +59,7 @@
 				<div class="row">
 	
 					<div style="margin:0 auto; margin-top:10px;width:950px;">
-						<strong style="font-size:16px;margin:5px 0;">订单详情</strong>
+						<strong style="font-size:16px;margin:5px 0;">购物车详情</strong>
 						<table class="table table-bordered">
 							<tbody>
 								<tr class="warning">
@@ -105,13 +105,13 @@
 				<div style="margin-right:130px;">
 					<div style="text-align:right;">
 						<em style="color:#ff6600;">
-					登录后确认是否享有优惠&nbsp;&nbsp;
+					&nbsp;&nbsp;
 				</em> 赠送积分: <em style="color:#ff6600;">${cart.total }</em>&nbsp; 商品金额: <strong style="color:#ff6600;">￥${cart.total }元</strong>
 					</div>
 					<div style="text-align:right;margin-top:10px;margin-bottom:10px;">
 						<a href="javascript:;" onclick="clearCart()" id="clear" class="clear">清空购物车</a>
 						<a href="${pageContext.request.contextPath }/product?method=submitOrder">
-							<input type="button" width="100" value="提交订单" name="submit" border="0" style="background: url('./images/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+							<input type="button" width="100" value="结算" name="submit" border="0" style="background: url('./images/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 							height:35px;width:100px;color:white;">
 						</a>
 					</div>

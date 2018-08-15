@@ -29,7 +29,6 @@ body {
 		$("#orderForm").submit();
 	}
 
-
 </script>
 
 </head>
@@ -83,7 +82,7 @@ body {
 
 		<div>
 			<hr />
-			<form id="orderForm" class="form-horizontal" action="${pageContext.request.contextPath }/product" method="post"
+			<form id="orderForm" class="form-horizontal" action="${pageContext.request.contextPath }/product?method=confirmOrder" method="post"
 				style="margin-top: 5px; margin-left: 150px;">
 				<!-- method的名字 通过表单提交 -->
 				<input type="hidden" name="method" value="confirmOrder">
@@ -92,7 +91,7 @@ body {
 				
 				
 				<div class="form-group">
-					<label for="username" class="col-sm-1 control-label">地址</label>
+					<label class="col-sm-1 control-label">地址</label>
 					<div class="col-sm-5">
 						<input type="text" class="form-control" id="address" name="address"  value="">
 					</div>
@@ -116,27 +115,6 @@ body {
 				<hr />
 
 				<div style="margin-top: 5px; margin-left: 150px;">
-					<strong>选择银行：</strong>
-					<p>
-						<br /> <input type="radio" name="pd_FrpId" value="ICBC-NET-B2C"
-							checked="checked" />工商银行 <img src="./bank_img/icbc.bmp"
-							align="middle" />&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio"
-							name="pd_FrpId" value="BOC-NET-B2C" />中国银行 <img
-							src="./bank_img/bc.bmp" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="radio" name="pd_FrpId" value="ABC-NET-B2C" />农业银行 <img
-							src="./bank_img/abc.bmp" align="middle" /> <br /> <br /> <input
-							type="radio" name="pd_FrpId" value="BOCO-NET-B2C" />交通银行 <img
-							src="./bank_img/bcc.bmp" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="radio" name="pd_FrpId" value="PINGANBANK-NET" />平安银行
-						<img src="./bank_img/pingan.bmp" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="radio" name="pd_FrpId" value="CCB-NET-B2C" />建设银行 <img
-							src="./bank_img/ccb.bmp" align="middle" /> <br /> <br /> <input
-							type="radio" name="pd_FrpId" value="CEB-NET-B2C" />光大银行 <img
-							src="./bank_img/guangda.bmp" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;
-						<input type="radio" name="pd_FrpId" value="CMBCHINA-NET-B2C" />招商银行
-						<img src="./bank_img/cmb.bmp" align="middle" />
-	
-					</p>
 					<hr />
 					<p style="text-align: right; margin-right: 100px;">
 						<a href="javascript:;" onclick="confirmOrder()">
