@@ -1,18 +1,15 @@
 package com.itheima.web.servlet;
 
-import java.io.IOException;
-import java.sql.SQLException;
+import com.itheima.domain.User;
+import com.itheima.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
-import com.itheima.domain.User;
-import com.itheima.service.UserService;
-import com.itheima.utils.MD5Utils;
+import java.io.IOException;
+import java.sql.SQLException;
 
 
 public class UserServlet extends BaseServlet {
@@ -80,7 +77,7 @@ public class UserServlet extends BaseServlet {
 			session.setAttribute("user", user);
 
 			//重定向到首页
-			response.sendRedirect(request.getContextPath()+"/index.jsp");
+			response.sendRedirect(request.getContextPath()+"/product?method=index");
 		}else{
 			request.setAttribute("loginError", "用户名或密码错误");
 			request.getRequestDispatcher("/login.jsp").forward(request, response);
