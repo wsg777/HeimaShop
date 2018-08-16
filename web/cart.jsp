@@ -111,9 +111,17 @@
 					<div style="text-align:right;margin-top:10px;margin-bottom:10px;">
 						<a href="javascript:;" onclick="clearCart()" id="clear" class="clear">清空购物车</a>
 						<a href="${pageContext.request.contextPath }/product?method=submitOrder">
+                            <c:if test="${!empty user }">
 							<input type="button" width="100" value="结算" name="submit" border="0" style="background: url('./images/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 							height:35px;width:100px;color:white;">
+                            </c:if>
 						</a>
+                        <a href="${pageContext.request.contextPath }/login.jsp">
+                            <c:if test="${empty user }">
+                                <input type="button" width="100" value="去登录" name="submit" border="0" style="background: url('./images/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+                                height:35px;width:100px;color:white;">
+                            </c:if>
+                        </a>
 					</div>
 				</div>
 	
@@ -121,8 +129,10 @@
 		</c:if>
 		<c:if test="${empty cart.cartItems }">
 			<div>
-				<img alt="" src="${pageContext.request.contextPath }/images/cart-empty.png">
+                <div class="container">
+				<H2>购物车为空</H2><br>
 				<a href="${pageContext.request.contextPath }">返回首页</a>
+                </div>
 			</div>
 		</c:if>
 

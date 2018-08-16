@@ -80,7 +80,7 @@ public class PrdocutServlet extends BaseServlet {
         service.updateOrderAdrr(order);
         response.setContentType("text/html;charset=UTF-8");
         response.setStatus(302);
-        response.setHeader("Location", "/pay.jsp");
+        response.setHeader("Location", request.getContextPath()+"/pay.jsp");
     }
 
     //提交订单

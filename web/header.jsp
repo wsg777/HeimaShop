@@ -32,7 +32,7 @@
 </div>
 
 <!-- 导航条 -->
-<div class="container-fluid" style="width: 1300px">
+<div class="container-fluid" style="width: 1250px">
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
