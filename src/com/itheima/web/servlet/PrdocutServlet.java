@@ -369,6 +369,7 @@ public class PrdocutServlet extends BaseServlet {
         String cid = request.getParameter("cid");
 
         String currentPageStr = request.getParameter("currentPage");
+
         if (currentPageStr == null) currentPageStr = "1";
         int currentPage = Integer.parseInt(currentPageStr);
         int currentCount = 12;

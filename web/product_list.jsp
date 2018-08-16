@@ -76,7 +76,7 @@ body {
 			</c:if>
 			<c:if test="${pageBean.currentPage!=1 }">
 				<li>
-					<a href="${pageContext.request.contextPath}/productListByCid?cid=${cid}&currentPage=${pageBean.currentPage-1 }" aria-label="Previous">
+					<a href="${pageContext.request.contextPath}/product?method=productList&cid=${cid}&currentPage=${pageBean.currentPage-1 }" aria-label="Previous">
 						<span aria-hidden="true">&laquo;</span>
 					</a>
 				</li>
@@ -90,7 +90,7 @@ body {
 					<li class="active"><a href="javascript:void(0);">${page }</a></li>
 				</c:if>
 				<c:if test="${page!=pageBean.currentPage }">
-					<li><a href="${pageContext.request.contextPath}/productListByCid?cid=${cid}&currentPage=${page }">${page }</a></li>
+					<li><a href="${pageContext.request.contextPath}/product?method=productList&cid=${cid}&currentPage=${page }">${page }</a></li>
 				</c:if>
 			</c:forEach>
 			
