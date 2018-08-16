@@ -55,11 +55,6 @@ body {
 			</div>
 		
 		</c:forEach>
-
-		
-
-		
-
 	</div>
 
 	<!--分页 -->
