@@ -1,0 +1,119 @@
+[33mcommit be8e83a12179195a56fd561fb9494e2b5dce6d41[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 15:48:45 2018 +0800
+
+    完成搜索功能
+
+[33mcommit f47adce1adb968a328ba8d47becb1af55635d0e5[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 15:48:16 2018 +0800
+
+    完成搜索功能
+
+[33mcommit 9e87375790608875ec08502973ac7f9ad0eccaae[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 12:14:16 2018 +0800
+
+    添加.gitignore
+
+[33mcommit b6e92cf093d0c6ccd79e13f340740cc64df5ee54[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 12:13:13 2018 +0800
+
+    添加.gitignore
+
+[33mcommit 7fa0c4245113a99369fd140223feb818f1935079[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 12:08:55 2018 +0800
+
+    添加.gitignore
+
+[33mcommit a614f05e25cf445a44beff18d85f9965ece8580c[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 12:06:00 2018 +0800
+
+    添加.gitignore
+
+[33mcommit d3f57c7309230e33975816af3a9e30fd1fa4c532[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 12:01:35 2018 +0800
+
+    添加.gitignore
+
+[33mcommit 0904d6046c967bd156baad86e2bad5ee638f348b[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 11:24:53 2018 +0800
+
+    处理未登录用户的操作
+
+[33mcommit 7ce5a639eb02e85c46c8b7c5a6d04ea80ca079b9[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 09:51:11 2018 +0800
+
+    商品显示分页
+
+[33mcommit e0f5ccf16de1f3ae60fa1c424841d9c30d63ca43[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 09:35:31 2018 +0800
+
+    商品显示分页
+
+[33mcommit c24717cb76f9d1a1d3307ba9fe73ce39af229d40[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Thu Aug 16 09:27:20 2018 +0800
+
+    商品显示分页
+
+[33mcommit 873f71e04b319972806180036817d82b7313471c[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 22:41:50 2018 +0800
+
+    完善注册、订单
+
+[33mcommit 2debdcf2e9f85843fb15349743ae342d61b3c718[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 20:27:57 2018 +0800
+
+    修改登陆后的跳转
+
+[33mcommit 746a3e79d9012b42d85c9ce8cf789c5ed79200c6[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 20:20:44 2018 +0800
+
+    完成订单相关功能
+
+[33mcommit 56418008de419a2745cd753ccf43a833fa12e735[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 17:47:13 2018 +0800
+
+    首页错误链接处理
+
+[33mcommit 62be9d2054a3bde815301831dade7a07edaa5ee0[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 16:41:15 2018 +0800
+
+    动态显示首页商品
+
+[33mcommit 0f15552bf17baa6af0e1e18b644cea0734b8ff70[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 15:18:09 2018 +0800
+
+    动态生成导航栏
+
+[33mcommit 1d9f2b11c08420c0bca1d9443826de20aa0546a5[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 11:26:40 2018 +0800
+
+    完成注册登录
+
+[33mcommit 0da6e9f8b124db167beb158c56e4e8b180d06771[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 11:17:35 2018 +0800
+
+    完成注册登录
+
+[33mcommit 5116bd900f25df0c863aecf4cd3b26f1d1fec2cc[m
+Author: wsg777 <1095151731@qq.com>
+Date:   Wed Aug 15 11:16:05 2018 +0800
+
+    完成注册登录

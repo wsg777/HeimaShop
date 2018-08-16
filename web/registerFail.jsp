@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Insert title here</title>
+	<title>注册失败</title>
 	<script>
         onload=function(){
             alert("注册失败，点击确定跳转到首页。");

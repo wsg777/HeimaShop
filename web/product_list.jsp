@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>会员登录</title>
+<title>商品列表</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -104,18 +104,18 @@ body {
 			
 			
 			<!-- 下一页 -->
-			<c:if test="${pageBean.currentPage==pageBean.totalPage }">
+			<c:if test="${pageBean.currentPage>=pageBean.totalPage }">
 				<li class="disabled">
 					<a href="javascript:void(0);" aria-label="Next"> 
 						<span aria-hidden="true">&raquo;</span>
 					</a>
 				</li>
 			</c:if>
-			<c:if test="${pageBean.currentPage!=pageBean.totalPage }">
+			<c:if test="${pageBean.currentPage<pageBean.totalPage }">
 				<li>
                     <c:if test="${!empty cid }">
                         <!-- 非搜索页面 -->
-                        <a href="${pageContext.request.contextPath}/productListByCid?cid=${cid}&currentPage=${pageBean.currentPage+1 }" aria-label="Next">
+                        <a href="${pageContext.request.contextPath}/product?method=productList&cid=${cid}&currentPage=${pageBean.currentPage+1 }" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>
                     </c:if>
