@@ -13,7 +13,7 @@
 	</head>
 
 	<body>
-		<div class="container-fluid">
+		<div class="container-fluid" style="width: 1300px">
 
 			<!-- 引入header.jsp -->
 			<jsp:include page="/header.jsp"></jsp:include>

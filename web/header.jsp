@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <!-- 登录 注册 购物车... -->
-<div class="container-fluid">
+<div class="container-fluid" style="width: 1300px">
 	<div class="col-md-4">
 		<img src="img/logo2.png" />
 	</div>
@@ -32,7 +32,7 @@
 </div>
 
 <!-- 导航条 -->
-<div class="container-fluid">
+<div class="container-fluid" style="width: 1300px">
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
