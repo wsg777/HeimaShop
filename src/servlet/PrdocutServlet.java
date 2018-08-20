@@ -278,7 +278,6 @@ public class PrdocutServlet extends BaseServlet {
     }
 
     //显示首页的功能
-    //显示商品的类别的的功能
     public void index(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ProductService service = new ProductService();
 

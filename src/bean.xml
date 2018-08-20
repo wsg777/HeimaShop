@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans>
-	<!-- 配置AdminServiceImpl的清单 -->
-	<bean id="adminService" class="service.impl.AdminServiceImpl"></bean>
-
-	<bean id="adminDao" class="dao.impl.AdminDaoImplMySql"></bean>
-
-</beans>

@@ -57,7 +57,7 @@
 				<form class="navbar-form navbar-right" action="${pageContext.request.contextPath}/product" method="get">
 					<div class="form-group">
                         <input type="hidden" name="method" value="searchProducts">
-                        <input type="text" class="form-control" placeholder="请输入要搜索的商品名称..." name="parameter">
+                        <input type="text" class="form-control" placeholder="请输入要搜索的商品名称..." value="${parameter}" name="parameter">
 					</div>
 					<input type="submit" class="btn btn-default" value="搜索">
 				</form>
