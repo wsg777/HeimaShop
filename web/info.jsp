@@ -17,13 +17,13 @@
 			<!-- 引入header.jsp -->
 			<jsp:include page="/header.jsp"></jsp:include>
 
-			<div class="container-fluid">
+			<div class="container-fluid" style="width: 1250px">
 				<div class="main_con">
 					<h2>“这里是关于我们的介绍”</h2>
 					<hr/>
 					<div>
 						<p>
-							<font color="red"> </font>
+							<font color="red">第一段</font>
 						</p>
 
 						<p>

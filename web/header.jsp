@@ -5,7 +5,7 @@
 <!-- 登录 注册 购物车... -->
 <div class="container-fluid" style="width: 1300px">
 	<div class="col-md-4">
-		<img src="img/logo2.png" />
+		<img src="img/logo2.png" height="65px" />
 	</div>
 	<div class="col-md-5">
 		<img src="img/header.png" />

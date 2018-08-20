@@ -1,11 +1,11 @@
-package com.itheima.service;
+package service;
 
-import com.itheima.dao.ProductDao;
-import com.itheima.domain.Category;
-import com.itheima.domain.Order;
-import com.itheima.domain.PageBean;
-import com.itheima.domain.Product;
-import com.itheima.utils.DataSourceUtils;
+import dao.ProductDao;
+import domain.Category;
+import domain.Order;
+import domain.PageBean;
+import domain.Product;
+import utils.DataSourceUtils;
 
 import java.sql.SQLException;
 import java.util.List;

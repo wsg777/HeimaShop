@@ -128,7 +128,7 @@ font {
 	<jsp:include page="/header.jsp"></jsp:include>
 
 	<div class="container"
-		style="width: 100%; background: url('image/regist_bg.jpg');">
+		style="width: 1250px; background: url('image/regist_bg.jpg');">
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-8"
@@ -143,7 +143,7 @@ font {
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+						<label class="col-sm-2 control-label">密码</label>
 						<div class="col-sm-6">
 							<input type="password" class="form-control" id="password" name="password"
 								placeholder="请输入密码">
@@ -171,7 +171,7 @@ font {
 						</div>
 					</div>
 					<div class="form-group opt">
-						<label for="inlineRadio1" class="col-sm-2 control-label">性别</label>
+						<label class="col-sm-2 control-label">性别</label>
 						<div class="col-sm-6">
 							<label class="radio-inline"> 
 								<input type="radio" name="sex" id="sex1" value="male" >男
@@ -179,18 +179,18 @@ font {
 							<label class="radio-inline"> 
 								<input type="radio" name="sex" id="sex2" value="female">女
 							</label>
-							<label class="error" for="sex" style="display:none ">您没有第三种选择</label>
+							<label class="error" style="display:none ">您没有第三种选择</label>
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="date" class="col-sm-2 control-label">出生日期</label>
+						<label class="col-sm-2 control-label">出生日期</label>
 						<div class="col-sm-6">
 							<input type="date" class="form-control" name="birthday">
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label for="date" class="col-sm-2 control-label">验证码</label>
+						<label class="col-sm-2 control-label">验证码</label>
 						<div class="col-sm-3">
 							<input type="text" class="form-control" name="checkCode">
 

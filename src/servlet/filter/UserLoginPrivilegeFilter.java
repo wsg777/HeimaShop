@@ -1,4 +1,4 @@
-package com.itheima.web.filter;
+package servlet.filter;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.itheima.domain.User;
+import domain.User;
 
 public class UserLoginPrivilegeFilter implements Filter{
 	

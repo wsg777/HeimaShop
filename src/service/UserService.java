@@ -1,7 +1,7 @@
-package com.itheima.service;
+package service;
 
-import com.itheima.dao.UserDao;
-import com.itheima.domain.User;
+import dao.UserDao;
+import domain.User;
 
 import java.sql.SQLException;
 

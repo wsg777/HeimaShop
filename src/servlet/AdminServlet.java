@@ -1,20 +1,18 @@
-package com.itheima.web.servlet;
+package servlet;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.google.gson.Gson;
-import com.itheima.domain.Category;
-import com.itheima.domain.Order;
-import com.itheima.service.AdminService;
-import com.itheima.service.impl.AdminServiceImpl;
-import com.itheima.utils.BeanFactory;
+import domain.Category;
+import domain.Order;
+import service.AdminService;
+import utils.BeanFactory;
 
 public class AdminServlet extends BaseServlet {
 	

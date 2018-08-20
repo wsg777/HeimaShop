@@ -1,7 +1,7 @@
-package com.itheima.web.servlet;
+package servlet;
 
-import com.itheima.domain.User;
-import com.itheima.service.UserService;
+import domain.User;
+import service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;

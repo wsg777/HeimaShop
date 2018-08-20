@@ -1,14 +1,14 @@
-package com.itheima.service.impl;
+package service.impl;
 
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-import com.itheima.dao.AdminDao;
-import com.itheima.domain.Category;
-import com.itheima.domain.Order;
-import com.itheima.domain.Product;
-import com.itheima.service.AdminService;
+import dao.AdminDao;
+import domain.Category;
+import domain.Order;
+import domain.Product;
+import service.AdminService;
 
 public class AdminServiceImpl implements AdminService{
 

@@ -1,7 +1,6 @@
-package com.itheima.utils;
+package utils;
 
 import org.dom4j.Document;
-import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
@@ -20,9 +19,9 @@ public class BeanFactory {
 			Document doc = reader.read(path);
 			//3、获得元素---参数是xpath规则
 			Element element = (Element) doc.selectSingleNode("//bean[@id='"+id+"']");
-			//<bean id="adminService" class="com.itheima.service.impl.AdminServiceImpl"></bean>
+			//<bean id="adminService" class="service.impl.AdminServiceImpl"></bean>
 			String className = element.attributeValue("class");
-			//com.itheima.service.impl.AdminServiceImpl
+			//service.impl.AdminServiceImpl
 			//使用反射创建对象
 			Class clazz = Class.forName(className);
 			Object object = clazz.newInstance();

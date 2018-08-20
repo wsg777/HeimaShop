@@ -1,4 +1,4 @@
-package com.itheima.utils;
+package utils;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

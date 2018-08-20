@@ -1,4 +1,4 @@
-package com.itheima.web.filter;
+package servlet.filter;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -12,8 +12,8 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
-import com.itheima.domain.User;
-import com.itheima.service.UserService;
+import domain.User;
+import service.UserService;
 
 
 public class AutoLoginFilter implements Filter{

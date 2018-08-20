@@ -1,4 +1,4 @@
-package com.itheima.web.servlet;
+package servlet;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.itheima.service.UserService;
+import service.UserService;
 
 public class CheckUsernameServlet extends HttpServlet {
 

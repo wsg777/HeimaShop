@@ -137,9 +137,6 @@ body {
 		style="width: 1210px; margin: 0 auto; padding: 0 9px; border: 1px solid #ddd; border-top: 2px solid #999; height: 246px;">
 
 		<h4 style="width: 50%; float: left; font: 14px/30px 微软雅黑">浏览记录</h4>
-		<div style="width: 50%; float: right; text-align: right;">
-			<a href="">more</a>
-		</div>
 		<div style="clear: both;"></div>
 
 		<div style="overflow: hidden;">

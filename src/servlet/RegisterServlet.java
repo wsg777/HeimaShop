@@ -1,8 +1,8 @@
-package com.itheima.web.servlet;
+package servlet;
 
-import com.itheima.domain.User;
-import com.itheima.service.UserService;
-import com.itheima.utils.CommonsUtils;
+import domain.User;
+import service.UserService;
+import utils.CommonsUtils;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.apache.commons.beanutils.Converter;

@@ -1,9 +1,9 @@
-package com.itheima.web.servlet;
+package servlet;
 
 import com.google.gson.Gson;
-import com.itheima.domain.*;
-import com.itheima.service.ProductService;
-import com.itheima.utils.CommonsUtils;
+import domain.*;
+import service.ProductService;
+import utils.CommonsUtils;
 import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletException;
@@ -59,7 +59,7 @@ public class PrdocutServlet extends BaseServlet {
         //orderList封装完成
         request.setAttribute("orderList", orderList);
 
-        request.getRequestDispatcher("/privilege/order_list.jsp").forward(request, response);
+        request.getRequestDispatcher("/order_list.jsp").forward(request, response);
 
 
     }

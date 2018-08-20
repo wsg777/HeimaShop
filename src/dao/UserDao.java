@@ -1,7 +1,7 @@
-package com.itheima.dao;
+package dao;
 
-import com.itheima.domain.User;
-import com.itheima.utils.DataSourceUtils;
+import domain.User;
+import utils.DataSourceUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;

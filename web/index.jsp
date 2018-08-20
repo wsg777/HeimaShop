@@ -13,10 +13,11 @@
 	</head>
 
 	<body>
+
+	<!-- 引入header.jsp -->
+	    <jsp:include page="/header.jsp"></jsp:include>
 		<div class="container-fluid" style="width: 1300px">
 
-			<!-- 引入header.jsp -->
-			<jsp:include page="/header.jsp"></jsp:include>
 
 			<!-- 轮播图 -->
 			<div class="container-fluid">
@@ -62,7 +63,7 @@
 			</div>
 
 			<!-- 热门商品 -->
-			<div class="container-fluid">
+			<div class="container-fluid" >
 				<div class="col-md-12">
 					<h2>热门商品&nbsp;&nbsp;<img src="img/title2.jpg" /></h2>
 				</div>

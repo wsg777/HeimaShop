@@ -1,4 +1,4 @@
-package com.itheima.web.servlet;
+package servlet;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -16,16 +16,15 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.IOUtils;
 
-import com.itheima.domain.Category;
-import com.itheima.domain.Product;
-import com.itheima.service.AdminService;
-import com.itheima.utils.BeanFactory;
-import com.itheima.utils.CommonsUtils;
+import domain.Category;
+import domain.Product;
+import service.AdminService;
+import utils.BeanFactory;
+import utils.CommonsUtils;
 
 public class AdminAddProductServlet extends HttpServlet {
 

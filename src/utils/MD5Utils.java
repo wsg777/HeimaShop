@@ -1,4 +1,4 @@
-package com.itheima.utils;
+package utils;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

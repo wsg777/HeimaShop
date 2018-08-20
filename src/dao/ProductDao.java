@@ -1,10 +1,10 @@
-package com.itheima.dao;
+package dao;
 
-import com.itheima.domain.Category;
-import com.itheima.domain.Order;
-import com.itheima.domain.OrderItem;
-import com.itheima.domain.Product;
-import com.itheima.utils.DataSourceUtils;
+import domain.Category;
+import domain.Order;
+import domain.OrderItem;
+import domain.Product;
+import utils.DataSourceUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
