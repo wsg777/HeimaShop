@@ -55,15 +55,6 @@ CREATE TABLE `orderitem` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of orderitem
--- ----------------------------
-INSERT INTO `orderitem` VALUES ('86a98da7-352e-41aa-89a4-f291151a1e07', '1', '1398', '7', '5272b3aa-ca34-4ef2-b35a-ba8ea63d0a0a');
-INSERT INTO `orderitem` VALUES ('c721b90c-5945-42c9-b0e1-7da41ee842c2', '1', '2699', '1', '34fb13a9-882e-4af1-9bca-ff0dbfce50fb');
-INSERT INTO `orderitem` VALUES ('ca64cc66-f267-42ca-b745-7d50c7fb82e5', '1', '2599', '10', '5272b3aa-ca34-4ef2-b35a-ba8ea63d0a0a');
-INSERT INTO `orderitem` VALUES ('d5d53a1b-beb0-4d78-97fe-6b7ee2da4eb9', '1', '2699', '1', 'a385501f-9f4b-48d5-a20c-7934589d0187');
-INSERT INTO `orderitem` VALUES ('e321c33f-6c1b-4a62-af0f-f840ab6734ee', '1', '2699', '1', '6d3aa58d-7958-41b4-af38-e5a63418d847');
-
--- ----------------------------
 -- Table structure for `orders`
 -- ----------------------------
 DROP TABLE IF EXISTS `orders`;
@@ -78,14 +69,6 @@ CREATE TABLE `orders` (
   `uid` varchar(36) DEFAULT NULL,
   PRIMARY KEY (`oid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of orders
--- ----------------------------
-INSERT INTO `orders` VALUES ('34fb13a9-882e-4af1-9bca-ff0dbfce50fb', '2018-08-20 15:12:27', '2699', '0', '', '', '', '5fc9787a-0805-413b-a1e5-16b34ce76a35');
-INSERT INTO `orders` VALUES ('5272b3aa-ca34-4ef2-b35a-ba8ea63d0a0a', '2018-08-20 17:12:42', '3997', '0', '', '', '', '5fc9787a-0805-413b-a1e5-16b34ce76a35');
-INSERT INTO `orders` VALUES ('6d3aa58d-7958-41b4-af38-e5a63418d847', '2018-08-20 15:10:30', '2699', '0', '', '', '', '5fc9787a-0805-413b-a1e5-16b34ce76a35');
-INSERT INTO `orders` VALUES ('a385501f-9f4b-48d5-a20c-7934589d0187', '2018-08-20 15:11:27', '2699', '0', '武汉', '', '', '5fc9787a-0805-413b-a1e5-16b34ce76a35');
 
 -- ----------------------------
 -- Table structure for `product`
@@ -175,8 +158,3 @@ CREATE TABLE `user` (
   `sex` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of user
--- ----------------------------
-INSERT INTO `user` VALUES ('5fc9787a-0805-413b-a1e5-16b34ce76a35', '王少刚', 'wsg727', '', '109515173111@qq.com', null, null, 'female');
