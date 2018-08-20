@@ -7,8 +7,189 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be88bda-6b5a-4237-926a-1b285e7df7f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/untitled_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/abc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/bc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/bcc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/beijingnongshang.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/bh.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/bj.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/ccb.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/cib.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/cmb.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/cmbc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/dy.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/gf.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/guangda.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/hx.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/icbc.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/nanjing.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/ningbo.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/pingan.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/post.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/sfz.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/sh.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/shpd.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/zheshang.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bank_img/zx.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/My97DatePicker.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/adidas.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/beijirong.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/captcha (2).jhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/captcha.jhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/cart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/common.css.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/common.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/dadonggua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/eifini.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/hengyuanxiang.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/index_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/index_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/index_right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/index_top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/jackjones.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/jsbn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/lining.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/maoren.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/nike.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/registImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/regist_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/semir.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/sentubila.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/septwolves.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/sundance.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/vimly.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/yishion.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/IconTexto_WebDev_009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/article.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/cart-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/cart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/cart1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/common.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dialog_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/error.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/finalbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/gif53_029.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/i_del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/i_edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/index.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/info.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/loading_bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/loading_icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/login.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/loginbg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/member.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/message.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/mis_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/mis_05a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/mis_05b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/mis_05c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/order.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/password.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/product.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/regist_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/register.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/review.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/shim.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/title2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/top_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/top_100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/base.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/cd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/empty.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/folderopen.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/globe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/imgfolder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/join.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/joinbottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/minus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/minusbottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/musicfolder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/nolines_minus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/nolines_plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/page.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/plus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/plusbottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/question.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/tree/trash.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/bartlesvillecf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/emancipation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/okwu-athletics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/155210007679548_y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/562d008aN963ce5f2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/5632bdf8N789e6659.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/5632c2eeNbc918af0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/90560009093007_y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/dn1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/dn2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/hao/small09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/news_left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/products/news_right.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +202,7 @@
     <session id="-1699042102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
@@ -40,57 +221,61 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="MF" value="1" />
           <entry key="bak" value="2" />
+          <entry key="bmp" value="5" />
           <entry key="class" value="5" />
-          <entry key="css" value="4" />
+          <entry key="css" value="5" />
           <entry key="e -i f47adce1adb968a328ba8d47becb1af55635d0e5^" value="1" />
-          <entry key="gif" value="9" />
-          <entry key="gitignore" value="1" />
+          <entry key="gif" value="24" />
+          <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
           <entry key="java" value="164" />
-          <entry key="jpg" value="31" />
-          <entry key="js" value="2" />
-          <entry key="jsp" value="88" />
+          <entry key="jpg" value="81" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="106" />
           <entry key="md" value="3" />
+          <entry key="png" value="2" />
           <entry key="properties" value="4" />
           <entry key="rnc" value="1" />
-          <entry key="sql" value="2" />
-          <entry key="xml" value="15" />
+          <entry key="sql" value="3" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="40" />
+          <entry key="Image" value="112" />
           <entry key="JAVA" value="164" />
-          <entry key="JSP" value="88" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JSP" value="106" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Manifest" value="1" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="4" />
           <entry key="RNG Compact" value="1" />
-          <entry key="SQL" value="2" />
-          <entry key="XML" value="15" />
+          <entry key="SQL" value="3" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="9" />
           <entry key="java" value="821" />
-          <entry key="jsp" value="1474" />
+          <entry key="jsp" value="1484" />
           <entry key="md" value="27" />
-          <entry key="xml" value="49" />
+          <entry key="xml" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="821" />
-          <entry key="JSP" value="1474" />
+          <entry key="JSP" value="1484" />
           <entry key="Markdown" value="27" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="49" />
+          <entry key="XML" value="68" />
         </counts>
       </usages-collector>
     </session>
@@ -100,25 +285,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-3084" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/servlet/UserServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="81" column="44" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="44" />
+            <state relative-caret-position="-3172" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/registerFail.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/registerSuccess.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/order_list.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/pay.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -178,7 +398,6 @@
         <option value="$PROJECT_DIR$/src/bean.xml" />
         <option value="$PROJECT_DIR$/src/servlet/PrdocutServlet.java" />
         <option value="$PROJECT_DIR$/web/product_list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/header.jsp" />
         <option value="$PROJECT_DIR$/web/info.jsp" />
         <option value="$PROJECT_DIR$/web/footer.jsp" />
@@ -187,6 +406,8 @@
         <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
         <option value="$PROJECT_DIR$/jdshop.sql" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -246,11 +467,6 @@
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,8 +480,8 @@
     <property name="SearchEverywhereHistoryKey" value="登录&#9;null&#9;null&#10;hotProductList&#9;PSI&#9;JAVA://com.itheima.service.ProductService#findHotProductList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534747319360" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534749648065" />
+    <property name="last_opened_file_path" value="M:/code/IdeaProjects/BookStore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -276,12 +492,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\王少刚\Desktop\untitled\web" />
       <recent name="C:\Users\王少刚\Desktop\untitled" />
       <recent name="C:\Users\王少刚\Desktop\untitled\web\img" />
       <recent name="C:\Users\王少刚\Desktop\untitled\web\products\1" />
       <recent name="C:\Users\王少刚\Desktop\untitled\web\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\王少刚\Desktop\untitled\web\products" />
       <recent name="C:\Users\王少刚\Desktop\untitled\web" />
     </key>
   </component>
@@ -312,6 +530,53 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="jdshop" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="jdshop" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,12 +694,12 @@
       <workItem from="1534656268548" duration="1283000" />
       <workItem from="1534683725374" duration="5369000" />
       <workItem from="1534733200123" duration="244000" />
-      <workItem from="1534734134411" duration="7131000" />
+      <workItem from="1534734134411" duration="9382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80177000" />
+    <option name="totallyTimeSpent" value="82428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,17 +713,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47487843" visible="true" weight="0.23880596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81229776" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" sideWeight="0.55016184" side_tool="true" weight="0.26012793" />
-      <window_info active="true" id="Web" order="2" sideWeight="0.52512157" side_tool="true" visible="true" weight="0.23880596" />
+      <window_info id="Web" order="2" sideWeight="0.18770227" side_tool="true" visible="true" weight="0.23880596" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" sideWeight="0.55016184" side_tool="true" weight="0.26012793" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.330076" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.330076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,233 +753,179 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/image/4a51167a-89d5-4710-aca2-7c76edc355b8-thumbnail.jpg" />
-    <entry file="file://$PROJECT_DIR$/web/image/750a9ce8-8c19-444d-b8cc-f3e7e786ec5d-thumbnail.jpg" />
-    <entry file="file://$PROJECT_DIR$/web/image/54890cf9-91b0-40bc-9f68-51462e9c43a8.jpg" />
-    <entry file="file://$PROJECT_DIR$/web/image/0ff130db-0a1b-4b8d-a918-ed9016317009-thumbnail.jpg">
+    <entry file="file://$PROJECT_DIR$/web/img/okwu-athletics.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/1.jpg">
+    <entry file="file://$PROJECT_DIR$/web/img/okwu.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/b.jpg">
+    <entry file="file://$PROJECT_DIR$/web/img/title2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/c.jpg">
+    <entry file="file://$PROJECT_DIR$/web/img/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/cart.gif">
+    <entry file="file://$PROJECT_DIR$/web/img/3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/cart.css">
+    <entry file="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/e.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small07.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/f.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small05.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/eifini.gif">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small08.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/index_2.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small09.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/jquery.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/logo.gif">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small06.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/nike.gif">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small04.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/vimly.gif">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/4.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/hao/small01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/blank.gif">
+    <entry file="file://$PROJECT_DIR$/web/products/c_0001.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/f5e39c37-94b2-462e-8e58-8bde3c5f1b8c-thumbnail.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/c_0004.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/f37ba36a-181b-4161-a88f-f74c9adb485d-thumbnail.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/1/c_0005.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/footer.jpg">
+    <entry file="file://$PROJECT_DIR$/web/products/1/c_0010.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/header.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/hengyuanxiang.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/common.css" />
     <entry file="file://$PROJECT_DIR$/web/products/1/c_0014.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/common.css.bak">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/products/1/c_0023.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/registerFail.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/products/c_0005.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/default.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
+    <entry file="file://$PROJECT_DIR$/web/products/dn1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/news_right.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdshop.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="138" column="75" selection-start-line="138" selection-start-column="75" selection-end-line="138" selection-end-column="75" />
+        <state relative-caret-position="188">
+          <caret line="117" column="72" selection-start-line="117" selection-start-column="72" selection-end-line="117" selection-end-column="72" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/c_0003.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/news_left.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/5632bdf8N789e6659.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/dn2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/hao/middle01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/155210007679548_y.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/c_0007.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/hao/big01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/products/hao/ad.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1492" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/cart.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
+    <entry file="file://$PROJECT_DIR$/web/default.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
+    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/info.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/order_list.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pay.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/logo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="6512" column="1" selection-start-line="6512" selection-start-column="1" selection-end-line="6512" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/info.jsp">
+    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-3084" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/header.jsp">
+    <entry file="file://$PROJECT_DIR$/web/product_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-3172" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="130" column="26" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#label#2;n#div#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2354">
-          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/registerFail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/registerSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdshop.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/BaseServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding>
-            <element signature="e#251#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/apache-tomcat-7.0.52/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Apache Software Foundation/apache-tomcat-7.0.52/lib/servlet-api.jar!/javax/servlet/RequestDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="81" column="44" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
