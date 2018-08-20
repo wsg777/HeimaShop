@@ -71,6 +71,9 @@ font {
 								<input type="password" class="form-control" name="password"
 									placeholder="请输入密码">
 							</div>
+							<span style="color: red">
+								${loginError}
+							</span>
 						</div>
 						<div class="form-group">
 							<label class="col-sm-2 control-label">验证码</label>
