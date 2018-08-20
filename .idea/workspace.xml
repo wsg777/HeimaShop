@@ -7,52 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be88bda-6b5a-4237-926a-1b285e7df7f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/default.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/PageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/ActiveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/ActiveServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/AdminAddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminAddProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/CheckUsernameServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/CheckUsernameServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/PrdocutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/PrdocutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/filter/AutoLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/filter/AutoLoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servlet/filter/UserLoginPrivilegeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlet/filter/UserLoginPrivilegeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/CommonsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/DataSourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/DataSourceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/MD5Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/PaymentUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/PaymentUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/products/1/c_0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/products/1/c_0001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/products/1/c_0010.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/products/1/c_0010.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/products/1/c_0014.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/products/1/c_0014.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -183,14 +138,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="69" column="43" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="43" />
+            <state relative-caret-position="2354">
+              <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -314,7 +269,7 @@
     </option>
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -338,18 +293,7 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +308,7 @@
     <property name="SearchEverywhereHistoryKey" value="hotProductList&#9;PSI&#9;JAVA://com.itheima.service.ProductService#findHotProductList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534743596596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534745999430" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -529,12 +473,12 @@
       <workItem from="1534656268548" duration="1283000" />
       <workItem from="1534683725374" duration="5369000" />
       <workItem from="1534733200123" duration="244000" />
-      <workItem from="1534734134411" duration="4417000" />
+      <workItem from="1534734134411" duration="5825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77463000" />
+    <option name="totallyTimeSpent" value="78871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +491,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4498382" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" sideWeight="0.55016184" side_tool="true" weight="0.26012793" />
@@ -566,7 +509,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3275488" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32681867" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.329718" />
@@ -760,14 +703,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="69" column="43" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="43" />
+        <state relative-caret-position="2354">
+          <caret line="107" column="26" lean-forward="true" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
