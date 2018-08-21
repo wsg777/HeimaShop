@@ -64,7 +64,7 @@ body {
 					</div>
 
 					<div style="margin: 10px 0 10px 0;">
-						促销: <a target="_blank" title="限时抢购 (2014-07-30 ~ 2015-01-01)"
+						促销: <a target="_blank" title="限时抢购 (2018-08-01 ~ 2018-08-31)"
 							style="background-color: #f07373;">限时抢购</a>
 					</div>
 
