@@ -19,11 +19,11 @@
 
 			<div class="container-fluid" style="width: 1250px">
 				<div class="main_con">
-					<h2>“这里是关于我们的介绍”</h2>
+					<h2>本项目用于江汉大学2018年暑期社会实践</h2>
 					<hr/>
 					<div>
 						<p>
-							<font color="red">第一段</font>
+							<font color="red"></font>
 						</p>
 
 						<p>
